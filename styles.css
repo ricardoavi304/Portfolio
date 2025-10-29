@@ -63,6 +63,21 @@
         }
 
         /* Hero Section */
+        
+        .avatar-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%; /* círculo perfecto */
+    border: 6px solid #ffffff; /* borde blanco */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* sombra suave */
+    transition: transform 0.3s ease;
+}
+
+.avatar-img:hover {
+    transform: scale(1.05); /* efecto sutil al pasar el mouse */
+}
+
         .hero-section {
             min-height: 100vh;
             display: flex;
