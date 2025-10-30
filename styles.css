@@ -74,6 +74,77 @@
     transition: transform 0.4s ease;
 }
 
+        /* Sobre Mí Section */
+        .about-section {
+            background: white;
+        }
+
+        .about-content {
+            background: var(--color-claro);
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .about-text {
+            font-size: 1.15rem;
+            line-height: 1.9;
+            color: var(--color-oscuro);
+            margin-bottom: 1.5rem;
+        }
+
+        .about-highlight {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin-top: 2rem;
+            border-left: 4px solid var(--color-contraste);
+        }
+
+        .interest-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+
+        .interest-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        .interest-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--color-base) 0%, var(--color-contraste) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+        }
+
+        .interest-icon i {
+            font-size: 2rem;
+            color: white;
+        }
+
+        .interest-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--color-oscuro);
+            margin-bottom: 1rem;
+        }
+
+        .interest-description {
+            color: #777;
+            line-height: 1.7;
+        }
+
+
 .avatar-img:hover {
     transform: scale(1.20); /* efecto sutil al pasar el mouse */
 }
